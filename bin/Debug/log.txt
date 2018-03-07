@@ -1,0 +1,2766 @@
+07:40:08 Discord     Discord.Net v1.0.2 (API v6)
+07:40:08 Gateway     Connecting
+07:40:09 Gateway     Connected
+07:40:09 Gateway     Ready
+07:40:18 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+07:40:28 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+07:41:32 Discord     Discord.Net v1.0.2 (API v6)
+07:41:32 Gateway     Connecting
+07:41:33 Gateway     Connected
+07:41:33 Gateway     Ready
+07:44:12 Discord     Discord.Net v1.0.2 (API v6)
+07:44:12 Gateway     Connecting
+07:44:13 Gateway     Connected
+07:44:13 Gateway     Ready
+07:44:18 Discord     Discord.Net v1.0.2 (API v6)
+07:44:18 Gateway     Connecting
+07:44:19 Gateway     Connected
+07:44:19 Gateway     Ready
+07:44:25 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+07:45:28 Discord     Discord.Net v1.0.2 (API v6)
+07:45:28 Gateway     Connecting
+07:45:29 Gateway     Connected
+07:45:29 Gateway     Ready
+07:48:42 Discord     Discord.Net v1.0.2 (API v6)
+07:48:42 Gateway     Connecting
+07:48:43 Gateway     Connected
+07:48:43 Gateway     Ready
+07:49:02 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+07:49:38 Gateway     A ReactionAdded handler is blocking the gateway task.
+07:49:42 Gateway     A ReactionAdded handler has thrown an unhandled exception.:
+System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Cumbot.Program.<MirrorReaction>d__6.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\Program.cs:line 106
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.EventExtensions.<InvokeAsync>d__3`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.WebSocket.DiscordSocketClient.<TimeoutWrap>d__128.MoveNext()
+07:49:56 Discord     Discord.Net v1.0.2 (API v6)
+07:49:56 Gateway     Connecting
+07:49:57 Gateway     Connected
+07:49:57 Gateway     Ready
+07:50:15 Gateway     A ReactionAdded handler is blocking the gateway task.
+07:50:15 Gateway     A ReactionAdded handler has thrown an unhandled exception.:
+System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Cumbot.Program.<MirrorReaction>d__6.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\Program.cs:line 106
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.EventExtensions.<InvokeAsync>d__3`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.WebSocket.DiscordSocketClient.<TimeoutWrap>d__128.MoveNext()
+07:50:36 Discord     Discord.Net v1.0.2 (API v6)
+07:50:37 Gateway     Connecting
+07:50:37 Gateway     Connected
+07:50:38 Gateway     Ready
+07:52:06 Discord     Discord.Net v1.0.2 (API v6)
+07:52:07 Gateway     Connecting
+07:52:07 Gateway     Connected
+07:52:08 Gateway     Ready
+07:53:59 Discord     Discord.Net v1.0.2 (API v6)
+07:54:00 Gateway     Connecting
+07:54:00 Gateway     Connected
+07:54:01 Gateway     Ready
+07:54:12 Gateway     A ReactionAdded handler is blocking the gateway task.
+07:54:32 Gateway     A ReactionAdded handler is blocking the gateway task.
+07:54:33 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+08:02:57 Discord     Discord.Net v1.0.2 (API v6)
+08:02:58 Gateway     Connecting
+08:02:58 Gateway     Connected
+08:02:59 Gateway     Ready
+08:04:26 Discord     Discord.Net v1.0.2 (API v6)
+08:04:26 Gateway     Connecting
+08:04:27 Gateway     Connected
+08:04:27 Gateway     Ready
+08:04:32 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+08:06:23 Discord     Discord.Net v1.0.2 (API v6)
+08:06:23 Gateway     Connecting
+08:06:24 Gateway     Connected
+08:06:24 Gateway     Ready
+08:09:28 Discord     Discord.Net v1.0.2 (API v6)
+08:09:28 Gateway     Connecting
+08:09:29 Gateway     Connected
+08:09:29 Gateway     Ready
+08:12:56 Discord     Discord.Net v1.0.2 (API v6)
+08:12:57 Gateway     Connecting
+08:12:57 Gateway     Connected
+08:12:57 Gateway     Ready
+08:13:35 Gateway     A MessageReceived handler is blocking the gateway task.
+08:13:35 Gateway     A MessageReceived handler has thrown an unhandled exception.:
+System.ArgumentException: Invalid emote format
+Parameter name: text
+   at Discord.Emote.Parse(String text)
+   at Cumbot.CommandHandler.<HandleCommand>d__4.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\CommandHandler.cs:line 77
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.EventExtensions.<InvokeAsync>d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.WebSocket.DiscordSocketClient.<TimeoutWrap>d__128.MoveNext()
+08:13:44 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+08:15:20 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+08:15:27 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+08:16:16 Discord     Discord.Net v1.0.2 (API v6)
+08:16:16 Gateway     Connecting
+08:16:17 Gateway     Connected
+08:16:17 Gateway     Ready
+08:16:46 Gateway     A MessageReceived handler is blocking the gateway task.
+08:17:36 Discord     Discord.Net v1.0.2 (API v6)
+08:17:37 Gateway     Connecting
+08:17:37 Gateway     Connected
+08:17:38 Gateway     Ready
+08:18:08 Gateway     A MessageReceived handler is blocking the gateway task.
+08:18:16 Discord     Discord.Net v1.0.2 (API v6)
+08:18:17 Gateway     Connecting
+08:18:17 Gateway     Connected
+08:18:17 Gateway     Ready
+08:18:35 Gateway     A MessageReceived handler is blocking the gateway task.
+08:18:38 Gateway     A MessageReceived handler has thrown an unhandled exception.:
+System.ArgumentException: Invalid emote format
+Parameter name: text
+   at Discord.Emote.Parse(String text)
+   at Cumbot.CommandHandler.<HandleCommand>d__4.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\CommandHandler.cs:line 77
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.EventExtensions.<InvokeAsync>d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.WebSocket.DiscordSocketClient.<TimeoutWrap>d__128.MoveNext()
+08:23:09 Discord     Discord.Net v1.0.2 (API v6)
+08:23:09 Gateway     Connecting
+08:23:10 Gateway     Connected
+08:23:10 Gateway     Ready
+08:24:40 Discord     Discord.Net v1.0.2 (API v6)
+08:24:40 Gateway     Connecting
+08:24:41 Gateway     Connected
+08:24:41 Gateway     Ready
+08:24:56 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+08:25:04 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+08:25:24 Discord     Discord.Net v1.0.2 (API v6)
+08:25:25 Gateway     Connecting
+08:25:25 Gateway     Connected
+08:25:26 Gateway     Ready
+08:26:31 Discord     Discord.Net v1.0.2 (API v6)
+08:26:31 Gateway     Connecting
+08:26:32 Gateway     Connected
+08:26:32 Gateway     Ready
+08:33:14 Discord     Discord.Net v1.0.2 (API v6)
+08:33:14 Gateway     Connecting
+08:33:15 Gateway     Connected
+08:33:15 Gateway     Ready
+08:33:19 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+08:38:59 Discord     Discord.Net v1.0.2 (API v6)
+08:39:00 Gateway     Connecting
+08:39:00 Gateway     Connected
+08:39:01 Gateway     Ready
+08:41:53 Gateway     A MessageReceived handler is blocking the gateway task.
+08:43:37 Discord     Discord.Net v1.0.2 (API v6)
+08:43:37 Gateway     Connecting
+08:43:38 Gateway     Connected
+08:43:38 Gateway     Ready
+12/10/2017 8:43:55 AM:    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Cumbot.PepeModule.<Test>d__3.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Cannot open database "PEPE" requested by the login. The login failed.
+Login failed for user 'Sharzademar-PC\Sharzademar'.
+08:43:55 Gateway     A MessageReceived handler is blocking the gateway task.
+09:00:02 Discord     Discord.Net v1.0.2 (API v6)
+09:00:02 Gateway     Connecting
+09:00:03 Gateway     Connected
+09:00:03 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+SQLite error (1): no such table: rarities
+12/10/2017 9:00:14 AM:    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Cumbot.PepeModule.<PopulateRarity>d__5.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 78
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+SQL logic error
+no such table: rarities
+09:02:04 Discord     Discord.Net v1.0.2 (API v6)
+09:02:04 Gateway     Connecting
+09:02:05 Gateway     Connected
+09:02:05 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+09:04:41 Gateway     System.Exception: Server missed last heartbeat
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<>c__DisplayClass28_0.<<StartAsync>b__0>d.MoveNext()
+09:04:41 Gateway     Disconnecting
+SQLite error (1): no such table: rarities
+12/10/2017 9:04:50 AM:    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Cumbot.PepeModule.<PopulateRarity>d__5.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 78
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+SQL logic error
+no such table: rarities
+09:04:50 Gateway     A MessageReceived handler is blocking the gateway task.
+09:05:06 Discord     Discord.Net v1.0.2 (API v6)
+09:05:07 Gateway     Connecting
+09:05:07 Gateway     Connected
+09:05:08 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+SQLite error (1): 4 values for 1 columns
+12/10/2017 9:05:22 AM:    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Cumbot.PepeModule.<PopulateRarity>d__5.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 88
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+SQL logic error
+4 values for 1 columns
+09:10:38 Discord     Discord.Net v1.0.2 (API v6)
+09:10:39 Gateway     Connecting
+09:10:40 Gateway     Connected
+09:10:40 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+09:16:56 Discord     Discord.Net v1.0.2 (API v6)
+09:16:57 Gateway     Connecting
+09:16:57 Gateway     Connected
+09:16:58 Gateway     Ready
+09:45:13 Discord     Discord.Net v1.0.2 (API v6)
+09:45:14 Gateway     Connecting
+09:45:14 Gateway     Connected
+09:45:15 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+12/10/2017 9:45:26 AM:    at System.Data.SQLite.SQLiteConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.SQLite.SQLiteConnection.BeginTransaction()
+   at Cumbot.PepeModule.<UpdateCards>d__6.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 139
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Operation is not valid due to the current state of the object.
+09:46:02 Discord     Discord.Net v1.0.2 (API v6)
+09:46:02 Gateway     Connecting
+09:46:02 Gateway     Connected
+09:46:03 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+12/10/2017 9:46:37 AM:    at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at System.Data.SQLite.SQLiteTransaction.Begin(Boolean deferredLock)
+   at System.Data.SQLite.SQLiteTransactionBase..ctor(SQLiteConnection connection, Boolean deferredLock)
+   at System.Data.SQLite.SQLiteTransaction..ctor(SQLiteConnection connection, Boolean deferredLock)
+   at System.Data.SQLite.SQLiteConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.SQLite.SQLiteConnection.BeginTransaction()
+   at Cumbot.PepeModule.<UpdateCards>d__6.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 141
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+database is locked
+database is locked
+09:46:37 Gateway     A MessageReceived handler is blocking the gateway task.
+12/10/2017 9:47:12 AM:    at System.Data.SQLite.SQLiteCommand.InitializeForReader()
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Cumbot.PepeModule.<UpdateCards>d__6.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 152
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+No connection associated with this command
+09:47:28 Discord     Discord.Net v1.0.2 (API v6)
+09:47:29 Gateway     Connecting
+09:47:29 Gateway     Connected
+09:47:30 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+09:53:42 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages
+09:53:45 Gateway     A MessageReceived handler is blocking the gateway task.
+09:53:48 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages
+09:53:55 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages
+09:54:02 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages
+09:54:08 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages
+09:54:14 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages
+09:54:20 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages
+09:54:27 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages
+11:31:56 Discord     Discord.Net v1.0.2 (API v6)
+11:31:57 Gateway     Connecting
+11:31:57 Gateway     Connected
+11:31:58 Gateway     Ready
+11:33:08 Discord     Discord.Net v1.0.2 (API v6)
+11:33:08 Gateway     Connecting
+11:33:09 Gateway     Connected
+11:33:09 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+12/10/2017 11:33:16 AM:    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Cumbot.PepeModule.<CollectCard>d__8.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 199
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+There is no row at position 0.
+11:33:58 Discord     Discord.Net v1.0.2 (API v6)
+11:33:59 Gateway     Connecting
+11:34:00 Gateway     Connected
+11:34:00 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+12/10/2017 11:34:03 AM:    at System.Data.SQLite.SQLiteCommand.InitializeForReader()
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Cumbot.PepeModule.<CollectCard>d__8.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 258
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+No connection associated with this command
+11:34:33 Discord     Discord.Net v1.0.2 (API v6)
+11:34:34 Gateway     Connecting
+11:34:34 Gateway     Connected
+11:34:35 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+12/10/2017 11:34:40 AM:    at System.DateTimeParse.ParseExactMultiple(String s, String[] formats, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String[] formats, IFormatProvider provider, DateTimeStyles style)
+   at System.Data.SQLite.SQLiteConvert.ToDateTime(String dateText, SQLiteDateFormats format, DateTimeKind kind, String formatString)
+   at System.Data.SQLite.SQLite3.GetDateTime(SQLiteStatement stmt, Int32 index)
+   at System.Data.SQLite.SQLite3.GetValue(SQLiteStatement stmt, SQLiteConnectionFlags flags, Int32 index, SQLiteType typ)
+   at System.Data.SQLite.SQLiteDataReader.GetValue(Int32 i)
+   at System.Data.SQLite.SQLiteDataReader.GetValues(Object[] values)
+   at System.Data.ProviderBase.DataReaderContainer.CommonLanguageSubsetDataReader.GetValues(Object[] values)
+   at System.Data.ProviderBase.SchemaMapping.LoadDataRow()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Cumbot.PepeModule.<CollectCard>d__8.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 197
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+String was not recognized as a valid DateTime.
+11:40:56 Discord     Discord.Net v1.0.2 (API v6)
+11:40:56 Gateway     Connecting
+11:40:57 Gateway     Connected
+11:40:58 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+12/10/2017 11:41:05 AM:    at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at Cumbot.PepeModule.<CollectCard>d__8.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 201
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Specified cast is not valid.
+11:41:05 Gateway     A MessageReceived handler is blocking the gateway task.
+11:41:14 Discord     Discord.Net v1.0.2 (API v6)
+11:41:15 Gateway     Connecting
+11:41:15 Gateway     Connected
+11:41:16 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+12/10/2017 11:41:18 AM:    at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at Cumbot.PepeModule.<CollectCard>d__8.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 201
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Specified cast is not valid.
+11:41:55 Discord     Discord.Net v1.0.2 (API v6)
+11:41:55 Gateway     Connecting
+11:41:56 Gateway     Connected
+11:41:56 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+12/10/2017 11:41:59 AM:    at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at Cumbot.PepeModule.<CollectCard>d__8.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 201
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Specified cast is not valid.
+11:42:44 Discord     Discord.Net v1.0.2 (API v6)
+11:42:45 Gateway     Connecting
+11:42:45 Gateway     Connected
+11:42:46 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+11:43:23 Discord     Discord.Net v1.0.2 (API v6)
+11:43:24 Gateway     Connecting
+11:43:24 Gateway     Connected
+11:43:25 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+12:15:48 Discord     Discord.Net v1.0.2 (API v6)
+12:15:48 Gateway     Connecting
+12:15:49 Gateway     Connected
+12:15:49 Gateway     Ready
+12:17:30 Discord     Discord.Net v1.0.2 (API v6)
+12:17:30 Gateway     Connecting
+12:17:31 Gateway     Connected
+12:17:31 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+13:44:47 Discord     Discord.Net v1.0.2 (API v6)
+13:44:47 Gateway     Connecting
+13:44:48 Gateway     Connected
+13:44:48 Gateway     Ready
+12/10/2017 1:44:55 PM:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at Cumbot.PepeModule.<DisplayCard>d__3.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 66
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Cumbot.PepeModule.<TestDisplay>d__4.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 112
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Could not find file 'C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\img\pepe\care_frame.png'.
+13:45:08 Discord     Discord.Net v1.0.2 (API v6)
+13:45:09 Gateway     Connecting
+13:45:09 Gateway     Connected
+13:45:09 Gateway     Ready
+12/10/2017 1:45:13 PM:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at Cumbot.PepeModule.<DisplayCard>d__3.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 68
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Cumbot.PepeModule.<TestDisplay>d__4.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 112
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Could not find file 'C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\img\pepe\holo_mult255_2.png'.
+13:45:53 Discord     Discord.Net v1.0.2 (API v6)
+13:45:54 Gateway     Connecting
+13:45:54 Gateway     Connected
+13:45:55 Gateway     Ready
+13:46:00 Gateway     A MessageReceived handler is blocking the gateway task.
+13:50:09 Discord     Discord.Net v1.0.2 (API v6)
+13:50:10 Gateway     Connecting
+13:50:10 Gateway     Connected
+13:50:11 Gateway     Ready
+13:50:22 Gateway     A MessageReceived handler is blocking the gateway task.
+14:07:31 Discord     Discord.Net v1.0.2 (API v6)
+14:07:32 Gateway     Connecting
+14:07:32 Gateway     Connected
+14:07:33 Gateway     Ready
+14:07:46 Gateway     A MessageReceived handler is blocking the gateway task.
+14:14:49 Discord     Discord.Net v1.0.2 (API v6)
+14:14:50 Gateway     Connecting
+14:14:50 Gateway     Connected
+14:14:51 Gateway     Ready
+14:14:59 Gateway     A MessageReceived handler is blocking the gateway task.
+14:27:26 Discord     Discord.Net v1.0.2 (API v6)
+14:27:27 Gateway     Connecting
+14:27:27 Gateway     Connected
+14:27:28 Gateway     Ready
+14:27:40 Gateway     A MessageReceived handler is blocking the gateway task.
+14:28:39 Discord     Discord.Net v1.0.2 (API v6)
+14:28:40 Gateway     Connecting
+14:28:40 Gateway     Connected
+14:28:41 Gateway     Ready
+14:28:47 Gateway     A MessageReceived handler is blocking the gateway task.
+14:29:15 Gateway     A MessageReceived handler is blocking the gateway task.
+14:30:11 Discord     Discord.Net v1.0.2 (API v6)
+14:30:11 Gateway     Connecting
+14:30:12 Gateway     Connected
+14:30:13 Gateway     Ready
+14:30:25 Gateway     A MessageReceived handler is blocking the gateway task.
+14:55:44 Discord     Discord.Net v1.0.2 (API v6)
+14:55:44 Gateway     Connecting
+14:55:45 Gateway     Connected
+14:55:45 Gateway     Ready
+14:55:53 Gateway     A MessageReceived handler is blocking the gateway task.
+14:58:23 Discord     Discord.Net v1.0.2 (API v6)
+14:58:23 Gateway     Connecting
+14:58:24 Gateway     Connected
+14:58:24 Gateway     Ready
+14:58:31 Gateway     A MessageReceived handler is blocking the gateway task.
+15:00:04 Discord     Discord.Net v1.0.2 (API v6)
+15:00:05 Gateway     Connecting
+15:00:05 Gateway     Connected
+15:00:06 Gateway     Ready
+15:00:13 Gateway     A MessageReceived handler is blocking the gateway task.
+15:06:02 Discord     Discord.Net v1.0.2 (API v6)
+15:06:02 Gateway     Connecting
+15:06:03 Gateway     Connected
+15:06:03 Gateway     Ready
+15:06:11 Gateway     A MessageReceived handler is blocking the gateway task.
+15:07:00 Discord     Discord.Net v1.0.2 (API v6)
+15:07:00 Gateway     Connecting
+15:07:01 Gateway     Connected
+15:07:01 Gateway     Ready
+15:07:06 Gateway     A MessageReceived handler is blocking the gateway task.
+15:19:24 Discord     Discord.Net v1.0.2 (API v6)
+15:19:24 Gateway     Connecting
+15:19:25 Gateway     Connected
+15:19:25 Gateway     Ready
+15:19:35 Gateway     A MessageReceived handler is blocking the gateway task.
+15:20:42 Discord     Discord.Net v1.0.2 (API v6)
+15:20:43 Gateway     Connecting
+15:20:43 Gateway     Connected
+15:20:43 Gateway     Ready
+15:20:48 Gateway     A MessageReceived handler is blocking the gateway task.
+15:21:30 Discord     Discord.Net v1.0.2 (API v6)
+15:21:30 Gateway     Connecting
+15:21:31 Gateway     Connected
+15:21:32 Gateway     Ready
+15:21:40 Gateway     A MessageReceived handler is blocking the gateway task.
+15:22:53 Discord     Discord.Net v1.0.2 (API v6)
+15:22:54 Gateway     Connecting
+15:22:54 Gateway     Connected
+15:22:54 Gateway     Ready
+15:23:00 Gateway     A MessageReceived handler is blocking the gateway task.
+15:24:27 Discord     Discord.Net v1.0.2 (API v6)
+15:24:27 Gateway     Connecting
+15:24:28 Gateway     Connected
+15:24:28 Gateway     Ready
+15:24:35 Gateway     A MessageReceived handler is blocking the gateway task.
+15:27:49 Discord     Discord.Net v1.0.2 (API v6)
+15:27:49 Gateway     Connecting
+15:27:50 Gateway     Connected
+15:27:50 Gateway     Ready
+15:28:01 Gateway     A MessageReceived handler is blocking the gateway task.
+15:29:13 Discord     Discord.Net v1.0.2 (API v6)
+15:29:13 Gateway     Connecting
+15:29:14 Gateway     Connected
+15:29:14 Gateway     Ready
+15:29:24 Gateway     A MessageReceived handler is blocking the gateway task.
+15:29:45 Discord     Discord.Net v1.0.2 (API v6)
+15:29:45 Gateway     Connecting
+15:29:46 Gateway     Connected
+15:29:46 Gateway     Ready
+15:29:55 Gateway     A MessageReceived handler is blocking the gateway task.
+15:32:22 Discord     Discord.Net v1.0.2 (API v6)
+15:32:22 Gateway     Connecting
+15:32:23 Gateway     Connected
+15:32:23 Gateway     Ready
+15:32:43 Discord     Discord.Net v1.0.2 (API v6)
+15:32:44 Gateway     Connecting
+15:32:44 Gateway     Connected
+15:32:45 Gateway     Ready
+15:32:52 Gateway     A MessageReceived handler is blocking the gateway task.
+15:33:57 Discord     Discord.Net v1.0.2 (API v6)
+15:33:57 Gateway     Connecting
+15:33:58 Gateway     Connected
+15:33:59 Gateway     Ready
+15:34:05 Gateway     A MessageReceived handler is blocking the gateway task.
+15:34:24 Discord     Discord.Net v1.0.2 (API v6)
+15:34:25 Gateway     Connecting
+15:34:25 Gateway     Connected
+15:34:26 Gateway     Ready
+15:34:31 Gateway     A MessageReceived handler is blocking the gateway task.
+15:43:18 Discord     Discord.Net v1.0.2 (API v6)
+15:43:18 Gateway     Connecting
+15:43:19 Gateway     Connected
+15:43:19 Gateway     Ready
+15:43:25 Gateway     A MessageReceived handler is blocking the gateway task.
+15:46:10 Discord     Discord.Net v1.0.2 (API v6)
+15:46:11 Gateway     Connecting
+15:46:11 Gateway     Connected
+15:46:12 Gateway     Ready
+15:46:20 Gateway     A MessageReceived handler is blocking the gateway task.
+15:48:44 Discord     Discord.Net v1.0.2 (API v6)
+15:48:45 Gateway     Connecting
+15:48:45 Gateway     Connected
+15:48:46 Gateway     Ready
+15:48:54 Gateway     A MessageReceived handler is blocking the gateway task.
+15:54:34 Discord     Discord.Net v1.0.2 (API v6)
+15:54:34 Gateway     Connecting
+15:54:35 Gateway     Connected
+15:54:35 Gateway     Ready
+15:54:49 Gateway     A MessageReceived handler is blocking the gateway task.
+15:55:24 Discord     Discord.Net v1.0.2 (API v6)
+15:55:24 Gateway     Connecting
+15:55:24 Gateway     Connected
+15:55:25 Gateway     Ready
+15:55:31 Gateway     A MessageReceived handler is blocking the gateway task.
+15:56:43 Discord     Discord.Net v1.0.2 (API v6)
+15:56:43 Gateway     Connecting
+15:56:44 Gateway     Connected
+15:56:44 Gateway     Ready
+15:56:52 Gateway     A MessageReceived handler is blocking the gateway task.
+16:02:42 Discord     Discord.Net v1.0.2 (API v6)
+16:02:43 Gateway     Connecting
+16:02:43 Gateway     Connected
+16:02:43 Gateway     Ready
+16:02:53 Gateway     A MessageReceived handler is blocking the gateway task.
+16:04:30 Discord     Discord.Net v1.0.2 (API v6)
+16:04:30 Gateway     Connecting
+16:04:31 Gateway     Connected
+16:04:31 Gateway     Ready
+16:04:42 Gateway     A MessageReceived handler is blocking the gateway task.
+16:05:06 Discord     Discord.Net v1.0.2 (API v6)
+16:05:07 Gateway     Connecting
+16:05:07 Gateway     Connected
+16:05:08 Gateway     Ready
+16:05:16 Gateway     A MessageReceived handler is blocking the gateway task.
+16:08:52 Discord     Discord.Net v1.0.2 (API v6)
+16:08:52 Gateway     Connecting
+16:08:53 Gateway     Connected
+16:08:54 Gateway     Ready
+16:09:02 Gateway     A MessageReceived handler is blocking the gateway task.
+16:09:50 Discord     Discord.Net v1.0.2 (API v6)
+16:09:52 Gateway     Connecting
+16:09:52 Gateway     Connected
+16:09:52 Gateway     Ready
+16:10:03 Gateway     A MessageReceived handler is blocking the gateway task.
+16:10:35 Discord     Discord.Net v1.0.2 (API v6)
+16:10:36 Gateway     Connecting
+16:10:36 Gateway     Connected
+16:10:36 Gateway     Ready
+16:10:46 Gateway     A MessageReceived handler is blocking the gateway task.
+16:16:09 Discord     Discord.Net v1.0.2 (API v6)
+16:16:11 Gateway     Connecting
+16:16:11 Gateway     Connected
+16:16:12 Gateway     Ready
+16:16:23 Gateway     A MessageReceived handler is blocking the gateway task.
+16:19:23 Discord     Discord.Net v1.0.2 (API v6)
+16:19:24 Gateway     Connecting
+16:19:24 Gateway     Connected
+16:19:25 Gateway     Ready
+16:19:33 Gateway     A MessageReceived handler is blocking the gateway task.
+16:20:48 Discord     Discord.Net v1.0.2 (API v6)
+16:20:49 Gateway     Connecting
+16:20:49 Gateway     Connected
+16:20:50 Gateway     Ready
+16:20:57 Gateway     A MessageReceived handler is blocking the gateway task.
+16:22:46 Discord     Discord.Net v1.0.2 (API v6)
+16:22:47 Gateway     Connecting
+16:22:47 Gateway     Connected
+16:22:48 Gateway     Ready
+16:22:53 Gateway     A MessageReceived handler is blocking the gateway task.
+16:26:42 Discord     Discord.Net v1.0.2 (API v6)
+16:26:43 Gateway     Connecting
+16:26:43 Gateway     Connected
+16:26:44 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+12/10/2017 4:26:57 PM:    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at Cumbot.PepeModule.<CollectCard>d__9.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 452
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Column 'extension' does not belong to table .
+16:27:34 Discord     Discord.Net v1.0.2 (API v6)
+16:27:38 Gateway     Connecting
+16:27:38 Gateway     Connected
+16:27:39 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+12/10/2017 4:27:44 PM:    at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at Cumbot.PepeModule.<CollectCard>d__9.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 452
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Specified cast is not valid.
+16:30:19 Discord     Discord.Net v1.0.2 (API v6)
+16:30:20 Gateway     Connecting
+16:30:20 Gateway     Connected
+16:30:21 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+12/10/2017 4:30:25 PM:    at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at Cumbot.PepeModule.<CollectCard>d__9.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 452
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Specified cast is not valid.
+16:32:09 Discord     Discord.Net v1.0.2 (API v6)
+16:32:10 Gateway     Connecting
+16:32:10 Gateway     Connected
+16:32:11 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+12/10/2017 4:32:14 PM:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at Cumbot.PepeModule.<DisplayCard>d__3.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 70
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Cumbot.PepeModule.<CollectCard>d__9.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 452
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Could not find file 'C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\img\pepe\uncommon\Raypepe..png'.
+16:33:01 Discord     Discord.Net v1.0.2 (API v6)
+16:33:01 Gateway     Connecting
+16:33:02 Gateway     Connected
+16:33:03 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:33:22 Gateway     A MessageReceived handler is blocking the gateway task.
+16:34:42 Discord     Discord.Net v1.0.2 (API v6)
+16:34:42 Gateway     Connecting
+16:34:43 Gateway     Connected
+16:34:43 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:34:49 Gateway     A MessageReceived handler is blocking the gateway task.
+16:35:32 Gateway     A MessageReceived handler is blocking the gateway task.
+16:36:34 Gateway     A MessageReceived handler is blocking the gateway task.
+16:54:08 Discord     Discord.Net v1.0.2 (API v6)
+16:54:09 Gateway     Connecting
+16:54:09 Gateway     Connected
+16:54:10 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:56:01 Discord     Discord.Net v1.0.2 (API v6)
+16:56:02 Gateway     Connecting
+16:56:02 Gateway     Connected
+16:56:03 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:29:54 Discord     Discord.Net v1.0.2 (API v6)
+17:29:54 Gateway     Connecting
+17:29:55 Gateway     Connected
+17:29:55 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+SQLite error (1): near "group": syntax error
+12/10/2017 5:30:04 PM:    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Cumbot.PepeModule.<GetCollection>d__3.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 50
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Cumbot.PepeModule.<ListCollection>d__4.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+SQL logic error
+near "group": syntax error
+17:30:29 Discord     Discord.Net v1.0.2 (API v6)
+17:30:29 Gateway     Connecting
+17:30:30 Gateway     Connected
+17:30:30 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:34:02 Discord     Discord.Net v1.0.2 (API v6)
+17:34:03 Gateway     Connecting
+17:34:03 Gateway     Connected
+17:34:04 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:34:18 Discord     Discord.Net v1.0.2 (API v6)
+17:34:18 Gateway     Connecting
+17:34:19 Gateway     Connected
+17:34:19 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+12/10/2017 5:34:25 PM:    at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at Cumbot.PepeModule.<ListCollection>d__4.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 65
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Specified cast is not valid.
+17:34:25 Gateway     A MessageReceived handler is blocking the gateway task.
+17:35:24 Discord     Discord.Net v1.0.2 (API v6)
+17:35:24 Gateway     Connecting
+17:35:24 Gateway     Connected
+17:35:25 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:36:45 Discord     Discord.Net v1.0.2 (API v6)
+17:36:45 Gateway     Connecting
+17:36:46 Gateway     Connected
+17:36:46 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:39:39 Discord     Discord.Net v1.0.2 (API v6)
+17:39:40 Gateway     Connecting
+17:39:40 Gateway     Connected
+17:39:41 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:40:19 Discord     Discord.Net v1.0.2 (API v6)
+17:40:20 Gateway     Connecting
+17:40:20 Gateway     Connected
+17:40:20 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+18:05:11 Discord     Discord.Net v1.0.2 (API v6)
+18:05:11 Gateway     Connecting
+18:05:12 Gateway     Connected
+18:05:12 Gateway     Ready
+18:05:47 Gateway     A MessageReceived handler is blocking the gateway task.
+18:06:10 Discord     Discord.Net v1.0.2 (API v6)
+18:06:11 Gateway     Connecting
+18:06:11 Gateway     Connected
+18:06:12 Gateway     Ready
+18:06:57 Discord     Discord.Net v1.0.2 (API v6)
+18:06:57 Gateway     Connecting
+18:06:58 Gateway     Connected
+18:06:58 Gateway     Ready
+12/10/2017 6:07:06 PM:    at System.IO.MemoryStream.CopyToAsync(Stream destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at System.IO.Stream.CopyToAsync(Stream destination)
+   at Discord.Net.Rest.DefaultRestClient.<SendAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Net.Queue.MultipartRestRequest.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Discord.Net.Queue.RequestBucket.<SendAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Net.Queue.RequestQueue.<SendAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.API.DiscordRestApiClient.<SendInternalAsync>d__62.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.API.DiscordRestApiClient.<SendMultipartAsync>d__61`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.API.DiscordRestApiClient.<UploadFileAsync>d__79.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Rest.ChannelHelper.<SendFileAsync>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.WebSocket.SocketTextChannel.<Discord-IMessageChannel-SendFileAsync>d__45.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Cumbot.PepeModule.<TestDisplay>d__8.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 304
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Cannot access a closed Stream.
+18:10:48 Discord     Discord.Net v1.0.2 (API v6)
+18:10:49 Gateway     Connecting
+18:10:49 Gateway     Connected
+18:10:50 Gateway     Ready
+18:13:00 Discord     Discord.Net v1.0.2 (API v6)
+18:13:01 Gateway     Connecting
+18:13:01 Gateway     Connected
+18:13:02 Gateway     Ready
+18:13:11 Gateway     A MessageReceived handler is blocking the gateway task.
+18:13:35 Gateway     A MessageReceived handler is blocking the gateway task.
+20:41:03 Discord     Discord.Net v1.0.2 (API v6)
+20:41:03 Gateway     Connecting
+20:41:04 Gateway     Connected
+20:41:04 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+21:15:37 Discord     Discord.Net v1.0.2 (API v6)
+21:15:37 Gateway     Connecting
+21:15:38 Gateway     Connected
+21:15:38 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+21:15:49 Gateway     A MessageReceived handler is blocking the gateway task.
+12/10/2017 9:16:01 PM:    at Discord.Emote.Parse(String text)
+   at Cumbot.CollectionBox.<SendFirstMessage>d__6.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\CollectionBox.cs:line 34
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Cumbot.PepeModule.<ShowCollection>d__5.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 101
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Invalid emote format
+Parameter name: text
+21:21:08 Discord     Discord.Net v1.0.2 (API v6)
+21:21:09 Gateway     Connecting
+21:21:09 Gateway     Connected
+21:21:10 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+21:21:18 Gateway     A MessageReceived handler is blocking the gateway task.
+21:21:22 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+21:21:23 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+21:21:58 Gateway     A ReactionAdded handler is blocking the gateway task.
+21:24:21 Discord     Discord.Net v1.0.2 (API v6)
+21:24:22 Gateway     Connecting
+21:24:22 Gateway     Connected
+21:24:23 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+21:24:36 Gateway     A MessageReceived handler is blocking the gateway task.
+21:24:41 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+21:24:43 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+21:24:52 Gateway     A ReactionAdded handler is blocking the gateway task.
+21:24:59 Gateway     A ReactionAdded handler is blocking the gateway task.
+21:25:14 Gateway     A MessageReceived handler is blocking the gateway task.
+21:25:17 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+21:25:19 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+21:28:53 Discord     Discord.Net v1.0.2 (API v6)
+21:28:56 Gateway     Connecting
+21:28:56 Gateway     Connected
+21:28:57 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+21:29:04 Gateway     A MessageReceived handler is blocking the gateway task.
+22:09:29 Discord     Discord.Net v1.0.2 (API v6)
+22:09:30 Gateway     Connecting
+22:09:30 Gateway     Connected
+22:09:31 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+22:09:42 Gateway     A MessageReceived handler is blocking the gateway task.
+22:09:45 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+22:09:47 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+22:09:52 Gateway     A ReactionAdded handler is blocking the gateway task.
+22:13:01 Discord     Discord.Net v1.0.2 (API v6)
+22:13:02 Gateway     Connecting
+22:13:02 Gateway     Connected
+22:13:03 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+22:13:09 Gateway     A MessageReceived handler is blocking the gateway task.
+22:13:12 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+22:13:14 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+22:13:21 Gateway     A ReactionAdded handler is blocking the gateway task.
+22:13:25 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+22:13:27 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+22:13:34 Gateway     A ReactionAdded handler is blocking the gateway task.
+22:13:37 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+22:13:38 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+22:14:12 Gateway     A MessageReceived handler is blocking the gateway task.
+22:14:14 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+22:14:15 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+22:14:26 Gateway     A ReactionAdded handler is blocking the gateway task.
+22:14:30 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+22:14:32 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+22:14:38 Gateway     A ReactionAdded handler is blocking the gateway task.
+22:14:41 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+22:14:42 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+06:34:11 Discord     Discord.Net v1.0.2 (API v6)
+06:34:12 Gateway     Connecting
+06:34:12 Gateway     Connected
+06:34:13 Gateway     Ready
+06:35:32 Discord     Discord.Net v1.0.2 (API v6)
+06:35:32 Gateway     Connecting
+06:35:33 Gateway     Connected
+06:35:33 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+06:38:23 Gateway     A MessageReceived handler is blocking the gateway task.
+06:38:25 Gateway     System.Exception: Server missed last heartbeat
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<>c__DisplayClass28_0.<<StartAsync>b__0>d.MoveNext()
+06:38:25 Gateway     Disconnecting
+06:38:32 Discord     Discord.Net v1.0.2 (API v6)
+06:38:33 Gateway     Connecting
+06:38:33 Gateway     Connected
+06:38:34 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+06:42:10 Discord     Discord.Net v1.0.2 (API v6)
+06:42:10 Gateway     Connecting
+06:42:11 Gateway     Connected
+06:42:11 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+06:47:11 Discord     Discord.Net v1.0.2 (API v6)
+06:47:11 Gateway     Connecting
+06:47:12 Gateway     Connected
+06:47:12 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+06:47:48 Gateway     A MessageReceived handler is blocking the gateway task.
+1/31/2018 6:48:06 AM:    at Cumbot.PepeModule.<ShowCollectionTest>d__8.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 263
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Index was outside the bounds of the array.
+06:48:51 Discord     Discord.Net v1.0.2 (API v6)
+06:48:51 Gateway     Connecting
+06:48:52 Gateway     Connected
+06:48:52 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+06:49:32 Gateway     A MessageReceived handler is blocking the gateway task.
+06:52:28 Discord     Discord.Net v1.0.2 (API v6)
+06:52:29 Gateway     Connecting
+06:52:30 Gateway     Connected
+06:52:30 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+06:52:38 Gateway     A MessageReceived handler is blocking the gateway task.
+1/31/2018 6:52:51 AM:    at Cumbot.PepeModule.<ShowCollectionTest>d__8.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 263
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Index was outside the bounds of the array.
+06:54:03 Discord     Discord.Net v1.0.2 (API v6)
+06:54:04 Gateway     Connecting
+06:54:04 Gateway     Connected
+06:54:05 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+06:54:23 Gateway     A MessageReceived handler is blocking the gateway task.
+06:55:40 Discord     Discord.Net v1.0.2 (API v6)
+06:55:40 Gateway     Connecting
+06:55:41 Gateway     Connected
+06:55:41 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+06:55:47 Gateway     A MessageReceived handler is blocking the gateway task.
+06:57:51 Gateway     System.Exception: Server missed last heartbeat
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<>c__DisplayClass28_0.<<StartAsync>b__0>d.MoveNext()
+06:57:55 Gateway     Disconnecting
+07:00:16 Discord     Discord.Net v1.0.2 (API v6)
+07:00:16 Gateway     Connecting
+07:00:17 Gateway     Connected
+07:00:17 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+07:00:27 Gateway     A MessageReceived handler is blocking the gateway task.
+1/31/2018 7:00:42 AM:    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Cumbot.PepeModule.<ShowCollectionTest>d__8.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 233
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+There is no row at position 3.
+07:01:44 Discord     Discord.Net v1.0.2 (API v6)
+07:01:44 Gateway     Connecting
+07:01:45 Gateway     Connected
+07:01:46 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+07:02:07 Gateway     A MessageReceived handler is blocking the gateway task.
+07:03:09 Gateway     System.Exception: Server missed last heartbeat
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<>c__DisplayClass28_0.<<StartAsync>b__0>d.MoveNext()
+07:03:09 Gateway     Disconnecting
+07:03:09 Gateway     Disconnected
+07:03:13 Gateway     Connecting
+07:03:23 Gateway     Failed to resume previous session
+07:03:23 Gateway     Connected
+07:03:26 Gateway     Ready
+1/31/2018 7:03:35 AM:    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Cumbot.PepeModule.<ShowCollectionTest>d__8.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 233
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+There is no row at position 3.
+07:07:18 Discord     Discord.Net v1.0.2 (API v6)
+07:07:19 Gateway     Connecting
+07:07:19 Gateway     Connected
+07:07:20 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+07:07:30 Gateway     A MessageReceived handler is blocking the gateway task.
+07:08:33 Discord     Discord.Net v1.0.2 (API v6)
+07:08:34 Gateway     Connecting
+07:08:34 Gateway     Connected
+07:08:35 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+07:08:47 Gateway     A MessageReceived handler is blocking the gateway task.
+07:09:58 Gateway     System.Exception: Server missed last heartbeat
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<>c__DisplayClass28_0.<<StartAsync>b__0>d.MoveNext()
+07:09:58 Gateway     Disconnecting
+07:09:58 Gateway     Disconnected
+07:10:00 Gateway     Connecting
+07:10:04 Gateway     Failed to resume previous session
+07:10:04 Gateway     Connected
+07:10:05 Gateway     Ready
+1/31/2018 7:10:05 AM:    at Cumbot.PepeModule.<ShowCollectionTest>d__8.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 263
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Index was outside the bounds of the array.
+07:10:52 Discord     Discord.Net v1.0.2 (API v6)
+07:10:53 Gateway     Connecting
+07:10:53 Gateway     Connected
+07:10:54 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+07:11:29 Gateway     A MessageReceived handler is blocking the gateway task.
+07:13:51 Discord     Discord.Net v1.0.2 (API v6)
+07:13:52 Gateway     Connecting
+07:13:52 Gateway     Connected
+07:13:53 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+07:13:59 Gateway     A MessageReceived handler is blocking the gateway task.
+1/31/2018 7:14:14 AM:    at Cumbot.PepeModule.<ShowCollectionTest>d__8.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 263
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Index was outside the bounds of the array.
+07:14:30 Discord     Discord.Net v1.0.2 (API v6)
+07:14:31 Gateway     Connecting
+07:14:31 Gateway     Connected
+07:14:32 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+07:14:41 Gateway     A MessageReceived handler is blocking the gateway task.
+07:15:54 Gateway     System.Exception: Server missed last heartbeat
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<>c__DisplayClass28_0.<<StartAsync>b__0>d.MoveNext()
+07:15:54 Gateway     Disconnecting
+07:15:54 Gateway     Disconnected
+07:16:23 Gateway     Connecting
+07:16:25 Gateway     Failed to resume previous session
+07:16:25 Gateway     Connected
+07:17:52 Discord     Discord.Net v1.0.2 (API v6)
+07:17:53 Gateway     Connecting
+07:17:54 Gateway     Connected
+07:17:54 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+07:18:00 Gateway     A MessageReceived handler is blocking the gateway task.
+07:26:13 Discord     Discord.Net v1.0.2 (API v6)
+07:26:14 Gateway     Connecting
+07:26:15 Gateway     Connected
+07:26:15 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+07:26:21 Gateway     A MessageReceived handler is blocking the gateway task.
+1/31/2018 7:26:28 AM:    at Cumbot.PepeModule.<ShowCollectionTest>d__8.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 263
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Index was outside the bounds of the array.
+07:26:43 Discord     Discord.Net v1.0.2 (API v6)
+07:26:43 Gateway     Connecting
+07:26:44 Gateway     Connected
+07:26:44 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+07:26:54 Gateway     A MessageReceived handler is blocking the gateway task.
+07:27:44 Discord     Discord.Net v1.0.2 (API v6)
+07:27:44 Gateway     Connecting
+07:27:45 Gateway     Connected
+07:27:45 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+07:27:51 Gateway     A MessageReceived handler is blocking the gateway task.
+07:30:16 Discord     Discord.Net v1.0.2 (API v6)
+07:30:17 Gateway     Connecting
+07:30:17 Gateway     Connected
+07:30:18 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+07:30:29 Gateway     A MessageReceived handler is blocking the gateway task.
+07:30:30 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+07:30:32 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+07:30:43 Gateway     A MessageReceived handler is blocking the gateway task.
+07:37:13 Discord     Discord.Net v1.0.2 (API v6)
+07:37:14 Gateway     Connecting
+07:37:15 Gateway     Connected
+07:37:16 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+07:37:26 Gateway     A MessageReceived handler is blocking the gateway task.
+07:47:13 Discord     Discord.Net v1.0.2 (API v6)
+07:47:13 Gateway     Connecting
+07:47:14 Gateway     Connected
+07:47:15 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+07:47:21 Gateway     A MessageReceived handler is blocking the gateway task.
+07:51:52 Discord     Discord.Net v1.0.2 (API v6)
+07:51:52 Gateway     Connecting
+07:51:53 Gateway     Connected
+07:51:53 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+07:52:01 Gateway     A MessageReceived handler is blocking the gateway task.
+07:52:42 Gateway     A MessageReceived handler is blocking the gateway task.
+07:53:24 Gateway     A MessageReceived handler is blocking the gateway task.
+07:54:13 Gateway     A MessageReceived handler is blocking the gateway task.
+07:54:48 Gateway     A MessageReceived handler is blocking the gateway task.
+07:55:47 Gateway     A MessageReceived handler is blocking the gateway task.
+07:56:44 Gateway     A MessageReceived handler is blocking the gateway task.
+07:57:23 Gateway     System.Exception: Server missed last heartbeat
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<>c__DisplayClass28_0.<<StartAsync>b__0>d.MoveNext()
+07:57:23 Gateway     Disconnecting
+07:57:23 Gateway     Disconnected
+07:57:24 Gateway     Connecting
+07:57:24 Gateway     Failed to resume previous session
+07:57:24 Gateway     Connected
+07:57:25 Gateway     Ready
+14:22:45 Discord     Discord.Net v1.0.2 (API v6)
+14:22:50 Gateway     Connecting
+14:22:52 Gateway     Connected
+14:22:53 Gateway     Ready
+14:23:16 Gateway     A MessageReceived handler is blocking the gateway task.
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+14:24:25 Gateway     A MessageReceived handler is blocking the gateway task.
+14:25:08 Gateway     System.Exception: Server missed last heartbeat
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<>c__DisplayClass28_0.<<StartAsync>b__0>d.MoveNext()
+14:25:08 Gateway     Disconnecting
+14:25:08 Gateway     Disconnected
+14:25:09 Gateway     Connecting
+14:25:10 Gateway     Failed to resume previous session
+14:25:10 Gateway     Connected
+14:25:10 Gateway     Ready
+14:33:33 Discord     Discord.Net v1.0.2 (API v6)
+14:33:34 Gateway     Connecting
+14:33:35 Gateway     Connected
+14:33:35 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+14:34:13 Gateway     A MessageReceived handler is blocking the gateway task.
+14:44:05 Discord     Discord.Net v1.0.2 (API v6)
+14:44:15 Gateway     Connecting
+14:44:19 Gateway     Connected
+14:44:20 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+14:44:28 Gateway     A MessageReceived handler is blocking the gateway task.
+14:48:01 Discord     Discord.Net v1.0.2 (API v6)
+14:48:01 Gateway     Connecting
+14:48:02 Gateway     Connected
+14:48:02 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+14:48:12 Gateway     A MessageReceived handler is blocking the gateway task.
+14:53:53 Discord     Discord.Net v1.0.2 (API v6)
+14:53:54 Gateway     Connecting
+14:53:54 Gateway     Connected
+14:53:55 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+14:54:05 Gateway     A MessageReceived handler is blocking the gateway task.
+14:57:09 Discord     Discord.Net v1.0.2 (API v6)
+14:57:10 Gateway     Connecting
+14:57:10 Gateway     Connected
+14:57:11 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+14:57:18 Gateway     A MessageReceived handler is blocking the gateway task.
+15:00:04 Discord     Discord.Net v1.0.2 (API v6)
+15:00:04 Gateway     Connecting
+15:00:05 Gateway     Connected
+15:00:05 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+15:00:16 Gateway     A MessageReceived handler is blocking the gateway task.
+15:01:09 Gateway     A MessageReceived handler is blocking the gateway task.
+15:03:41 Discord     Discord.Net v1.0.2 (API v6)
+15:03:42 Gateway     Connecting
+15:03:43 Gateway     Connected
+15:03:43 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+15:10:03 Discord     Discord.Net v1.0.2 (API v6)
+15:10:04 Gateway     Connecting
+15:10:05 Gateway     Connected
+15:10:05 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+15:10:14 Gateway     A MessageReceived handler is blocking the gateway task.
+15:15:36 Discord     Discord.Net v1.0.2 (API v6)
+15:15:37 Gateway     Connecting
+15:15:37 Gateway     Connected
+15:15:38 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+15:15:56 Gateway     A MessageReceived handler is blocking the gateway task.
+15:17:10 Gateway     A MessageReceived handler is blocking the gateway task.
+15:20:05 Gateway     A MessageReceived handler is blocking the gateway task.
+15:21:30 Gateway     A MessageReceived handler is blocking the gateway task.
+15:39:15 Discord     Discord.Net v1.0.2 (API v6)
+15:39:15 Gateway     Connecting
+15:39:16 Gateway     Connected
+15:39:16 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+15:39:27 Gateway     A MessageReceived handler is blocking the gateway task.
+15:41:19 Discord     Discord.Net v1.0.2 (API v6)
+15:41:20 Gateway     Connecting
+15:41:21 Gateway     Connected
+15:41:21 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+15:41:29 Gateway     A MessageReceived handler is blocking the gateway task.
+15:43:27 Discord     Discord.Net v1.0.2 (API v6)
+15:43:28 Gateway     Connecting
+15:43:29 Gateway     Connected
+15:43:29 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+15:43:44 Gateway     A MessageReceived handler is blocking the gateway task.
+15:45:55 Discord     Discord.Net v1.0.2 (API v6)
+15:45:56 Gateway     Connecting
+15:45:56 Gateway     Connected
+15:45:57 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+15:46:22 Gateway     A MessageReceived handler is blocking the gateway task.
+15:48:51 Discord     Discord.Net v1.0.2 (API v6)
+15:48:52 Gateway     Connecting
+15:48:52 Gateway     Connected
+15:48:53 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+15:49:03 Gateway     A MessageReceived handler is blocking the gateway task.
+15:53:45 Discord     Discord.Net v1.0.2 (API v6)
+15:53:46 Gateway     Connecting
+15:53:46 Gateway     Connected
+15:53:47 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+15:54:19 Gateway     A MessageReceived handler is blocking the gateway task.
+15:55:17 Discord     Discord.Net v1.0.2 (API v6)
+15:55:17 Gateway     Connecting
+15:55:18 Gateway     Connected
+15:55:18 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+15:56:02 Gateway     A MessageReceived handler is blocking the gateway task.
+16:15:02 Discord     Discord.Net v1.0.2 (API v6)
+16:15:02 Gateway     Connecting
+16:15:03 Gateway     Connected
+16:15:03 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:15:16 Gateway     A MessageReceived handler is blocking the gateway task.
+16:15:17 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:15:19 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:16:09 Discord     Discord.Net v1.0.2 (API v6)
+16:16:09 Gateway     Connecting
+16:16:10 Gateway     Connected
+16:16:10 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:16:17 Gateway     A MessageReceived handler is blocking the gateway task.
+16:16:51 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:16:52 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:17:02 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:17:03 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:17:03 Gateway     A ReactionAdded handler is blocking the gateway task.
+1/31/2018 4:17:43 PM:    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Cumbot.Utility.<RandomMessage>d__11.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\Utility.cs:line 81
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Cumbot.Commands.<Insult>d__4.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\Commands.cs:line 140
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+The given key was not present in the dictionary.
+16:17:55 Discord     Discord.Net v1.0.2 (API v6)
+16:17:55 Gateway     Connecting
+16:17:56 Gateway     Connected
+16:17:56 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:18:02 Gateway     A MessageReceived handler is blocking the gateway task.
+16:18:36 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:18:37 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:18:43 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:18:44 Gateway     A ReactionAdded handler is blocking the gateway task.
+16:18:44 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:19:22 Discord     Discord.Net v1.0.2 (API v6)
+16:19:23 Gateway     Connecting
+16:19:23 Gateway     Connected
+16:19:24 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:19:30 Gateway     A MessageReceived handler is blocking the gateway task.
+16:20:05 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:20:06 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:20:48 Gateway     A ReactionAdded handler is blocking the gateway task.
+16:21:06 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:21:10 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:21:33 Gateway     System.Exception: Server missed last heartbeat
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<>c__DisplayClass28_0.<<StartAsync>b__0>d.MoveNext()
+16:21:33 Gateway     Disconnecting
+16:21:33 Gateway     Disconnected
+16:21:35 Gateway     Connecting
+16:21:35 Gateway     Failed to resume previous session
+16:21:35 Gateway     Connected
+16:21:35 Gateway     Ready
+16:21:57 Gateway     A ReactionAdded handler is blocking the gateway task.
+16:22:59 Gateway     System.Exception: Server missed last heartbeat
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<>c__DisplayClass28_0.<<StartAsync>b__0>d.MoveNext()
+16:22:59 Gateway     Disconnecting
+16:23:05 Discord     Discord.Net v1.0.2 (API v6)
+16:23:05 Gateway     Connecting
+16:23:06 Gateway     Connected
+16:23:06 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:23:16 Gateway     A MessageReceived handler is blocking the gateway task.
+16:23:50 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:23:51 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:24:06 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:24:08 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:24:08 Gateway     A ReactionAdded handler is blocking the gateway task.
+16:24:15 Gateway     A ReactionAdded handler is blocking the gateway task.
+16:26:51 Discord     Discord.Net v1.0.2 (API v6)
+16:26:52 Gateway     Connecting
+16:26:52 Gateway     Connected
+16:26:53 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:26:59 Gateway     A MessageReceived handler is blocking the gateway task.
+16:27:49 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:27:52 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:28:21 Discord     Discord.Net v1.0.2 (API v6)
+16:28:22 Gateway     Connecting
+16:28:22 Gateway     Connected
+16:28:23 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:28:29 Gateway     A MessageReceived handler is blocking the gateway task.
+16:29:29 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:29:31 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:29:39 Gateway     System.Exception: WebSocket connection was closed ---> System.Exception: Unexpected close
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<>c__DisplayClass28_0.<<StartAsync>b__0>d.MoveNext()
+16:29:39 Gateway     Disconnecting
+16:29:39 Gateway     Disconnected
+16:29:40 Gateway     Connecting
+16:29:47 Gateway     A ReactionAdded handler is blocking the gateway task.
+16:30:20 Gateway     System.TimeoutException: The operation has timed out.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<WaitAsync>d__33.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Discord.WebSocket.DiscordSocketClient.<OnConnectingAsync>d__93.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.WebSocket.DiscordSocketClient.<OnConnectingAsync>d__93.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<ConnectAsync>d__30.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<>c__DisplayClass28_0.<<StartAsync>b__0>d.MoveNext()
+16:30:20 Gateway     Disconnecting
+16:30:20 Gateway     Disconnected
+16:30:22 Gateway     Connecting
+16:30:23 Gateway     Failed to resume previous session
+16:30:24 Gateway     Connected
+16:30:29 Gateway     Ready
+16:31:32 Discord     Discord.Net v1.0.2 (API v6)
+16:31:32 Gateway     Connecting
+16:31:33 Gateway     Connected
+16:31:33 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:31:41 Gateway     A MessageReceived handler is blocking the gateway task.
+16:32:15 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:32:16 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:32:20 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:32:21 Gateway     A ReactionAdded handler is blocking the gateway task.
+16:32:22 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:33:35 Discord     Discord.Net v1.0.2 (API v6)
+16:33:35 Gateway     Connecting
+16:33:36 Gateway     Connected
+16:33:36 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:35:27 Gateway     A MessageReceived handler is blocking the gateway task.
+16:36:10 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:36:11 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:36:29 Gateway     A ReactionAdded handler is blocking the gateway task.
+16:36:39 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:36:41 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:36:45 Gateway     System.Exception: WebSocket connection was closed ---> System.Exception: Unexpected close
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<>c__DisplayClass28_0.<<StartAsync>b__0>d.MoveNext()
+16:36:45 Gateway     Disconnecting
+16:36:45 Gateway     Disconnected
+16:36:47 Gateway     Connecting
+16:36:48 Gateway     Connected
+16:36:48 Gateway     Resumed previous session
+16:40:42 Discord     Discord.Net v1.0.2 (API v6)
+16:40:42 Gateway     Connecting
+16:40:43 Gateway     Connected
+16:40:44 Gateway     Ready
+16:40:53 Discord     Discord.Net v1.0.2 (API v6)
+16:40:54 Gateway     Connecting
+16:40:54 Gateway     Connected
+16:40:55 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:41:00 Gateway     A MessageReceived handler is blocking the gateway task.
+16:41:39 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:41:41 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:41:49 Gateway     A ReactionAdded handler is blocking the gateway task.
+16:41:50 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:41:52 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:46:05 Discord     Discord.Net v1.0.2 (API v6)
+16:46:06 Gateway     Connecting
+16:46:06 Gateway     Connected
+16:46:07 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:46:13 Gateway     A MessageReceived handler is blocking the gateway task.
+16:46:54 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:46:55 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:50:54 Discord     Discord.Net v1.0.2 (API v6)
+16:50:55 Gateway     Connecting
+16:50:56 Gateway     Connected
+16:50:56 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:51:02 Gateway     A MessageReceived handler is blocking the gateway task.
+16:51:42 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:51:43 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:51:51 Gateway     A ReactionAdded handler is blocking the gateway task.
+16:51:52 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:51:54 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:55:32 Discord     Discord.Net v1.0.2 (API v6)
+16:55:33 Gateway     Connecting
+16:55:33 Gateway     Connected
+16:55:34 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:55:46 Gateway     A MessageReceived handler is blocking the gateway task.
+16:56:20 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:56:22 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:56:27 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:56:28 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:56:29 Gateway     A ReactionAdded handler is blocking the gateway task.
+16:57:13 Gateway     A MessageReceived handler is blocking the gateway task.
+16:57:47 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:57:49 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:58:00 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:58:01 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+16:58:01 Gateway     A ReactionAdded handler is blocking the gateway task.
+16:58:55 Gateway     A ReactionAdded handler is blocking the gateway task.
+17:02:10 Discord     Discord.Net v1.0.2 (API v6)
+17:02:10 Gateway     Connecting
+17:02:11 Gateway     Connected
+17:02:11 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:02:18 Gateway     A MessageReceived handler is blocking the gateway task.
+17:03:25 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:03:27 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:04:22 Discord     Discord.Net v1.0.2 (API v6)
+17:04:23 Gateway     Connecting
+17:04:23 Gateway     Connected
+17:04:24 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:04:31 Gateway     A MessageReceived handler is blocking the gateway task.
+17:05:09 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:05:10 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:07:28 Discord     Discord.Net v1.0.2 (API v6)
+17:07:28 Gateway     Connecting
+17:07:29 Gateway     Connected
+17:07:29 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:07:36 Gateway     A MessageReceived handler is blocking the gateway task.
+17:08:11 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:08:13 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:08:18 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:08:19 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:08:19 Gateway     A ReactionAdded handler is blocking the gateway task.
+17:11:17 Discord     Discord.Net v1.0.2 (API v6)
+17:11:17 Gateway     Connecting
+17:11:18 Gateway     Connected
+17:11:18 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:11:26 Gateway     A MessageReceived handler is blocking the gateway task.
+17:11:59 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:12:01 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:12:06 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:12:07 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:12:09 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:12:11 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:12:43 Discord     Discord.Net v1.0.2 (API v6)
+17:12:43 Gateway     Connecting
+17:12:44 Gateway     Connected
+17:12:45 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:12:49 Gateway     A MessageReceived handler is blocking the gateway task.
+17:13:23 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:13:24 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:15:31 Discord     Discord.Net v1.0.2 (API v6)
+17:15:31 Gateway     Connecting
+17:15:32 Gateway     Connected
+17:15:32 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:15:40 Gateway     A MessageReceived handler is blocking the gateway task.
+17:17:57 Discord     Discord.Net v1.0.2 (API v6)
+17:17:58 Gateway     Connecting
+17:17:59 Gateway     Connected
+17:17:59 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:18:04 Gateway     A MessageReceived handler is blocking the gateway task.
+17:18:37 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:18:38 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:20:58 Discord     Discord.Net v1.0.2 (API v6)
+17:20:59 Gateway     Connecting
+17:21:00 Gateway     Connected
+17:21:00 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:21:09 Gateway     A MessageReceived handler is blocking the gateway task.
+17:23:35 Discord     Discord.Net v1.0.2 (API v6)
+17:23:35 Gateway     Connecting
+17:23:36 Gateway     Connected
+17:23:36 Gateway     Ready
+17:24:06 Discord     Discord.Net v1.0.2 (API v6)
+17:24:06 Gateway     Connecting
+17:24:07 Gateway     Connected
+17:24:07 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:24:35 Gateway     A MessageReceived handler is blocking the gateway task.
+17:25:09 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:25:10 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:25:13 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:25:13 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:25:14 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:25:19 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:25:20 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:25:20 Gateway     A ReactionAdded handler is blocking the gateway task.
+17:25:24 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:25:26 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:25:26 Gateway     A ReactionAdded handler is blocking the gateway task.
+17:31:48 Discord     Discord.Net v1.0.2 (API v6)
+17:31:48 Gateway     Connecting
+17:31:49 Gateway     Connected
+17:31:49 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:31:57 Gateway     A MessageReceived handler is blocking the gateway task.
+17:32:32 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:32:33 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:32:47 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:32:48 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:32:49 Gateway     A ReactionAdded handler is blocking the gateway task.
+17:32:51 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:32:53 Gateway     A ReactionAdded handler is blocking the gateway task.
+17:32:53 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:33:57 Discord     Discord.Net v1.0.2 (API v6)
+17:33:57 Gateway     Connecting
+17:33:58 Gateway     Connected
+17:33:59 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:34:38 Gateway     A MessageReceived handler is blocking the gateway task.
+17:35:13 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:35:14 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:35:20 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:35:21 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:35:21 Gateway     A ReactionAdded handler is blocking the gateway task.
+17:35:24 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:35:26 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:35:26 Gateway     A ReactionAdded handler is blocking the gateway task.
+17:36:01 Discord     Discord.Net v1.0.2 (API v6)
+17:36:01 Gateway     Connecting
+17:36:02 Gateway     Connected
+17:36:03 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:36:12 Gateway     A MessageReceived handler is blocking the gateway task.
+17:36:47 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:36:48 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:37:25 Discord     Discord.Net v1.0.2 (API v6)
+17:37:25 Gateway     Connecting
+17:37:26 Gateway     Connected
+17:37:26 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+1/31/2018 5:37:30 PM:    at System.Drawing.Image.FromStream(Stream stream, Boolean useEmbeddedColorManagement, Boolean validateImageData)
+   at System.Drawing.Image.FromStream(Stream stream)
+   at Cumbot.PepeModule.<GetCollectionPages>d__10.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 280
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Cumbot.PepeModule.<ShowCollection>d__9.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 129
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Parameter is not valid.
+17:38:43 Discord     Discord.Net v1.0.2 (API v6)
+17:38:44 Gateway     Connecting
+17:38:45 Gateway     Connected
+17:38:45 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:38:52 Gateway     A MessageReceived handler is blocking the gateway task.
+17:39:38 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:39:40 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:40:14 Discord     Discord.Net v1.0.2 (API v6)
+17:40:15 Gateway     Connecting
+17:40:15 Gateway     Connected
+17:40:16 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:40:23 Gateway     A MessageReceived handler is blocking the gateway task.
+17:41:03 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:41:05 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:42:43 Discord     Discord.Net v1.0.2 (API v6)
+17:42:44 Gateway     Connecting
+17:42:45 Gateway     Connected
+17:42:45 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+17:42:51 Gateway     A MessageReceived handler is blocking the gateway task.
+17:43:26 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:43:27 Rest        Preemptive Rate limit triggered: channels/275106689538326529/messages/reactions/@me
+17:50:01 Discord     Discord.Net v1.0.2 (API v6)
+17:50:02 Gateway     Connecting
+17:50:02 Gateway     Connected
+17:50:03 Gateway     Ready
+14:46:38 Discord     Discord.Net v1.0.2 (API v6)
+14:46:39 Gateway     Connecting
+14:46:41 Gateway     Connected
+14:46:41 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+3/6/2018 2:51:04 PM:    at System.Data.Common.DbDataAdapter.GetConnection3(DbDataAdapter adapter, IDbCommand command, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Cumbot.PepeModule.<GetCardList>d__5.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Cumbot.PepeModule.<TradeCards>d__21.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 820
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Fill: SelectCommand.Connection property has not been initialized.
+15:22:36 Discord     Discord.Net v1.0.2 (API v6)
+15:22:37 Gateway     Connecting
+15:22:37 Gateway     Connected
+15:22:38 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+15:25:39 Discord     Discord.Net v1.0.2 (API v6)
+15:25:39 Gateway     Connecting
+15:25:40 Gateway     Connected
+15:25:40 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+15:29:27 Gateway     System.Exception: Server missed last heartbeat
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<>c__DisplayClass28_0.<<StartAsync>b__0>d.MoveNext()
+15:29:27 Gateway     Disconnecting
+15:33:43 Discord     Discord.Net v1.0.2 (API v6)
+15:33:44 Gateway     Connecting
+15:33:44 Gateway     Connected
+15:33:45 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+15:33:58 Gateway     A MessageReceived handler is blocking the gateway task.
+3/6/2018 3:35:04 PM:    at Cumbot.PepeModule.<>c.<TradeCards>b__21_4(<>f__AnonymousType0`2 <>h__TransparentIdentifier0, DataRow cc) in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 867
+   at System.Linq.Enumerable.<SelectManyIterator>d__23`3.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Cumbot.PepeModule.<TradeCards>d__21.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 850
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Object reference not set to an instance of an object.
+15:43:55 Discord     Discord.Net v1.0.2 (API v6)
+15:43:55 Gateway     Connecting
+15:43:56 Gateway     Connected
+15:43:56 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+15:53:10 Discord     Discord.Net v1.0.2 (API v6)
+15:53:11 Gateway     Connecting
+15:53:12 Gateway     Connected
+15:53:12 Gateway     Ready
+15:54:24 Discord     Discord.Net v1.0.2 (API v6)
+15:54:25 Gateway     Connecting
+15:54:25 Gateway     Connected
+15:54:26 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:00:14 Discord     Discord.Net v1.0.2 (API v6)
+16:00:15 Gateway     Connecting
+16:00:15 Gateway     Connected
+16:00:16 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:01:08 Discord     Discord.Net v1.0.2 (API v6)
+16:01:09 Gateway     Connecting
+16:01:09 Gateway     Connected
+16:01:10 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:01:32 Discord     Discord.Net v1.0.2 (API v6)
+16:01:33 Gateway     Connecting
+16:01:33 Gateway     Connected
+16:01:34 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:01:57 Discord     Discord.Net v1.0.2 (API v6)
+16:01:58 Gateway     Connecting
+16:01:59 Gateway     Connected
+16:01:59 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:04:09 Discord     Discord.Net v1.0.2 (API v6)
+16:04:09 Gateway     Connecting
+16:04:10 Gateway     Connected
+16:04:10 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:05:32 Gateway     System.Exception: Server missed last heartbeat
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<>c__DisplayClass28_0.<<StartAsync>b__0>d.MoveNext()
+16:05:32 Gateway     Disconnecting
+16:05:32 Gateway     Disconnected
+16:05:33 Gateway     Connecting
+16:05:34 Gateway     Failed to resume previous session
+16:05:34 Gateway     Connected
+16:05:34 Gateway     Ready
+16:06:10 Discord     Discord.Net v1.0.2 (API v6)
+16:06:14 Gateway     Connecting
+16:06:15 Gateway     Connected
+16:06:15 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:07:30 Discord     Discord.Net v1.0.2 (API v6)
+16:07:30 Gateway     Connecting
+16:07:31 Gateway     Connected
+16:07:31 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:08:01 Discord     Discord.Net v1.0.2 (API v6)
+16:08:01 Gateway     Connecting
+16:08:02 Gateway     Connected
+16:08:02 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:11:28 Discord     Discord.Net v1.0.2 (API v6)
+16:11:29 Gateway     Connecting
+16:11:30 Gateway     Connected
+16:11:30 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:11:36 Gateway     A MessageReceived handler is blocking the gateway task.
+16:11:48 Gateway     A MessageReceived handler is blocking the gateway task.
+16:14:52 Gateway     A MessageReceived handler is blocking the gateway task.
+16:15:50 Discord     Discord.Net v1.0.2 (API v6)
+16:15:51 Gateway     Connecting
+16:15:51 Gateway     Connected
+16:15:52 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:37:16 Discord     Discord.Net v1.0.2 (API v6)
+16:37:17 Gateway     Connecting
+16:37:17 Gateway     Connected
+16:37:18 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+3/6/2018 4:37:30 PM:    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Cumbot.PepeModule.RarityToEmoji(Int32 rarity) in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 84
+   at Cumbot.PepeModule.<TradeCards>d__22.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 917
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+16:39:17 Discord     Discord.Net v1.0.2 (API v6)
+16:39:18 Gateway     Connecting
+16:39:18 Gateway     Connected
+16:39:19 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+16:39:49 Gateway     A MessageReceived handler is blocking the gateway task.
+19:39:45 Discord     Discord.Net v1.0.2 (API v6)
+19:39:45 Gateway     Connecting
+19:39:46 Gateway     Connected
+19:39:46 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+3/6/2018 7:51:13 PM:    at Discord.API.DiscordRestApiClient.<CreateMessageAsync>d__77.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Rest.ChannelHelper.<SendMessageAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.WebSocket.SocketTextChannel.<Discord-IMessageChannel-SendMessageAsync>d__46.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleBase`1.<ReplyAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Cumbot.Commands.<TestOutputLength>d__6.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\Commands.cs:line 157
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+Message content is too long, length must be less or equal to 2000.
+Parameter name: Content
+19:55:16 Discord     Discord.Net v1.0.2 (API v6)
+19:55:18 Gateway     Connecting
+19:55:18 Gateway     Connected
+19:55:19 Gateway     Ready
+19:58:05 Discord     Discord.Net v1.0.2 (API v6)
+19:58:06 Gateway     Connecting
+19:58:06 Gateway     Connected
+19:58:07 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+19:59:52 Discord     Discord.Net v1.0.2 (API v6)
+19:59:53 Gateway     Connecting
+19:59:53 Gateway     Connected
+19:59:54 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+19:59:58 Gateway     A MessageReceived handler is blocking the gateway task.
+20:01:12 Discord     Discord.Net v1.0.2 (API v6)
+20:01:13 Gateway     Connecting
+20:01:13 Gateway     Connected
+20:01:14 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+20:02:20 Gateway     A MessageReceived handler is blocking the gateway task.
+20:02:21 Gateway     System.Exception: WebSocket connection was closed ---> System.Exception: Unexpected close
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<>c__DisplayClass28_0.<<StartAsync>b__0>d.MoveNext()
+20:02:21 Gateway     Disconnecting
+20:02:21 Gateway     Disconnected
+20:02:22 Gateway     Connecting
+20:02:22 Gateway     Connected
+20:02:22 Gateway     Resumed previous session
+20:03:38 Gateway     A MessageReceived handler is blocking the gateway task.
+20:03:38 Gateway     System.Exception: WebSocket connection was closed ---> System.Exception: Unexpected close
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<>c__DisplayClass28_0.<<StartAsync>b__0>d.MoveNext()
+20:03:38 Gateway     Disconnecting
+20:03:38 Gateway     Disconnected
+20:03:39 Gateway     Connecting
+20:03:39 Gateway     Resumed previous session
+20:03:39 Gateway     Connected
+20:05:00 Gateway     A MessageReceived handler is blocking the gateway task.
+20:05:00 Gateway     System.Exception: WebSocket connection was closed ---> System.Exception: Unexpected close
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<>c__DisplayClass28_0.<<StartAsync>b__0>d.MoveNext()
+20:05:00 Gateway     Disconnecting
+20:05:00 Gateway     Disconnected
+20:05:01 Gateway     Connecting
+20:05:02 Gateway     Resumed previous session
+20:05:02 Gateway     Connected
+20:08:10 Discord     Discord.Net v1.0.2 (API v6)
+20:08:11 Gateway     Connecting
+20:08:11 Gateway     Connected
+20:08:12 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+20:08:53 Gateway     A MessageReceived handler is blocking the gateway task.
+20:35:10 Gateway     A MessageReceived handler is blocking the gateway task.
+20:35:14 Rest        Preemptive Rate limit triggered: channels/271050936833540103/messages/reactions/@me
+20:35:16 Rest        Preemptive Rate limit triggered: channels/271050936833540103/messages/reactions/@me
+20:36:41 Discord     Discord.Net v1.0.2 (API v6)
+20:36:41 Gateway     Connecting
+20:36:42 Gateway     Connected
+20:36:43 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+20:36:55 Gateway     A MessageReceived handler is blocking the gateway task.
+20:36:56 Rest        Preemptive Rate limit triggered: channels/271050936833540103/messages/reactions/@me
+20:36:57 Rest        Preemptive Rate limit triggered: channels/271050936833540103/messages/reactions/@me
+SQLite error (1): near "limit": syntax error
+3/6/2018 8:39:06 PM:    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Cumbot.TradeSession.<Trade>d__15.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\TradeSession.cs:line 193
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Cumbot.TradeSession.<Confirm>d__14.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\TradeSession.cs:line 155
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Cumbot.PepeModule.<Confirm>d__20.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 914
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+SQL logic error
+near "limit": syntax error
+20:40:57 Discord     Discord.Net v1.0.2 (API v6)
+20:40:58 Gateway     Connecting
+20:40:58 Gateway     Connected
+20:41:40 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+20:41:44 Gateway     A MessageReceived handler is blocking the gateway task.
+20:42:18 Discord     Discord.Net v1.0.2 (API v6)
+20:42:20 Gateway     Connecting
+20:42:24 Gateway     Connected
+20:42:24 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+20:42:30 Gateway     A MessageReceived handler is blocking the gateway task.
+20:42:34 Rest        Preemptive Rate limit triggered: channels/271050936833540103/messages/reactions/@me
+20:42:35 Rest        Preemptive Rate limit triggered: channels/271050936833540103/messages/reactions/@me
+20:42:52 Gateway     A MessageReceived handler is blocking the gateway task.
+20:42:53 Rest        Preemptive Rate limit triggered: channels/271050936833540103/messages/reactions/@me
+20:42:54 Rest        Preemptive Rate limit triggered: channels/271050936833540103/messages/reactions/@me
+21:01:29 Discord     Discord.Net v1.0.2 (API v6)
+21:01:29 Gateway     Connecting
+21:01:30 Gateway     Connected
+21:01:30 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+21:01:42 Gateway     A MessageReceived handler is blocking the gateway task.
+21:01:46 Rest        Preemptive Rate limit triggered: channels/271050936833540103/messages/reactions/@me
+21:01:47 Rest        Preemptive Rate limit triggered: channels/271050936833540103/messages/reactions/@me
+21:02:01 Gateway     A MessageReceived handler is blocking the gateway task.
+21:02:02 Rest        Preemptive Rate limit triggered: channels/271050936833540103/messages/reactions/@me
+21:02:03 Rest        Preemptive Rate limit triggered: channels/271050936833540103/messages/reactions/@me
+SQLite error (1): table collection has 4 columns but 3 values were supplied
+3/6/2018 9:03:24 PM:    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Cumbot.TradeSession.<Trade>d__15.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\TradeSession.cs:line 183
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Cumbot.TradeSession.<Confirm>d__14.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\TradeSession.cs:line 155
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Cumbot.PepeModule.<Confirm>d__20.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 914
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+SQL logic error
+table collection has 4 columns but 3 values were supplied
+21:06:15 Discord     Discord.Net v1.0.2 (API v6)
+21:06:15 Gateway     Connecting
+21:06:16 Gateway     Connected
+21:06:16 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+SQLite error (1): sub-select returns 4 columns - expected 1
+3/6/2018 9:16:47 PM:    at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Cumbot.TradeSession.<Trade>d__15.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\TradeSession.cs:line 196
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Cumbot.TradeSession.<Confirm>d__14.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\TradeSession.cs:line 155
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Cumbot.PepeModule.<Confirm>d__20.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 914
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+SQL logic error
+sub-select returns 4 columns - expected 1
+21:20:23 Discord     Discord.Net v1.0.2 (API v6)
+21:20:23 Gateway     Connecting
+21:20:24 Gateway     Connected
+21:20:24 Gateway     Ready
+Native library pre-loader is trying to load native SQLite library "C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\bin\Debug\x86\SQLite.Interop.dll"...
+21:21:36 Gateway     A MessageReceived handler is blocking the gateway task.
+3/6/2018 9:22:03 PM:    at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Cumbot.TradeSession.<Trade>d__15.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\TradeSession.cs:line 183
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Cumbot.TradeSession.<Confirm>d__14.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\TradeSession.cs:line 155
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Cumbot.PepeModule.<Confirm>d__20.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\PepeModule.cs:line 914
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+database is locked
+database is locked
+21:23:30 Gateway     A MessageReceived handler is blocking the gateway task.
+21:23:34 Rest        Preemptive Rate limit triggered: channels/271050936833540103/messages/reactions/@me
+21:23:35 Rest        Preemptive Rate limit triggered: channels/271050936833540103/messages/reactions/@me
+21:23:42 Gateway     A MessageReceived handler is blocking the gateway task.
+21:23:44 Rest        Preemptive Rate limit triggered: channels/271050936833540103/messages/reactions/@me
+21:23:45 Rest        Preemptive Rate limit triggered: channels/271050936833540103/messages/reactions/@me
+3/6/2018 9:24:37 PM:    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Cumbot.Utility.<RandomMessage>d__16.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\Utility.cs:line 224
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Cumbot.Commands.<Insult>d__4.MoveNext() in C:\Users\Sharzademar\source\repos\Cumbot\Cumbot\Commands.cs:line 140
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsync>d__40.MoveNext()
+The given key was not present in the dictionary.
+21:28:21 Discord     Discord.Net v1.0.2 (API v6)
+21:28:22 Gateway     Connecting
+21:28:23 Gateway     Connected
+21:28:23 Gateway     Ready
